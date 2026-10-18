@@ -1,0 +1,179 @@
+key,zh-CN,en-US
+WeChat,微信公众号,WeChat
+Workspace,工作区,Workspace
+Official Account,公众号,Official Account
+Official Accounts,公众号账号,Official Accounts
+Tag,标签,Tag
+Tags,粉丝标签,Tags
+Fans,粉丝,Fans
+Blacklist,黑名单,Blacklist
+Menus,自定义菜单,Menus
+Auto replies,自动回复,Auto replies
+Materials,素材,Materials
+Drafts,草稿箱,Drafts
+Publications,已发布文章,Publications
+Comments,评论,Comments
+Templates,模板消息,Templates
+Template message log,模板消息记录,Template message log
+Subscribe notifications,订阅通知,Subscribe notifications
+Mass messages,群发,Mass messages
+Service accounts,客服账号,Service accounts
+Service sessions,客服会话,Service sessions
+Service messages,客服消息,Service messages
+QR codes,参数二维码,QR codes
+Inbox,消息与事件,Inbox
+Fan statistics,粉丝统计,Fan statistics
+Article statistics,图文统计,Article statistics
+API statistics,接口统计,API statistics
+Name,名称,Name
+AppSecret,AppSecret,AppSecret
+Token,Token,Token
+EncodingAESKey,EncodingAESKey,EncodingAESKey
+Server URL,服务器地址,Server URL
+Sync fans,同步粉丝,Sync fans
+Callback IPs,回调 IP,Callback IPs
+Clear API quota,清零接口配额,Clear API quota
+OpenID,OpenID,OpenID
+UnionID,UnionID,UnionID
+Subscribed,已关注,Subscribed
+Unsubscribed,已取关,Unsubscribed
+Subscribed at,关注时间,Subscribed at
+Scene,场景,Scene
+Remark,备注,Remark
+Sync,同步,Sync
+Untag,取消标签,Untag
+Message,发消息,Message
+Block,拉黑,Block
+Unblock,解除拉黑,Unblock
+Pick a tag,选择标签,Pick a tag
+Send a message,发送消息,Send a message
+Text,文本,Text
+ID,ID,ID
+Parent,上级菜单,Parent
+Type,类型,Type
+Folder (has sub menus),父菜单（含子菜单）,Folder (has sub menus)
+Click event,点击事件,Click event
+Open URL,跳转网页,Open URL
+Mini program,小程序,Mini program
+Event key,事件 Key,Event key
+URL,网页地址,URL
+Mini program AppID,小程序 AppID,Mini program AppID
+Mini program page,小程序页面路径,Mini program page
+Only for tag,仅对标签可见,Only for tag
+Sort,排序,Sort
+Publish,发布,Publish
+Remove from WeChat,从微信删除,Remove from WeChat
+Trigger,触发场景,Trigger
+Keyword (exact),关键字（精确匹配）,Keyword (exact)
+Keyword (contains),关键字（包含匹配）,Keyword (contains)
+On subscribe,关注欢迎语,On subscribe
+Default,默认回复,Default
+Keyword,关键字,Keyword
+Reply,回复,Reply
+Image,图片,Image
+Article link,图文链接,Article link
+Content,内容,Content
+Title,标题,Title
+Description,描述,Description
+Cover image URL,封面图地址,Cover image URL
+Link,链接,Link
+Enabled,启用,Enabled
+Disabled,停用,Disabled
+Media ID,媒体 ID,Media ID
+Voice,语音,Voice
+Video,视频,Video
+File,文件,File
+Updated at,更新时间,Updated at
+Author,作者,Author
+Digest,摘要,Digest
+Cover image,封面图,Cover image
+Read more URL,原文链接,Read more URL
+Articles,文章数,Articles
+Preview,预览,Preview
+Article ID,文章 ID,Article ID
+Published at,发布时间,Published at
+Open comments,开启评论,Open comments
+Close comments,关闭评论,Close comments
+Article,文章,Article
+Comment,评论内容,Comment
+Featured,精选,Featured
+Plain,普通,Plain
+Feature,精选,Feature
+Unfeature,取消精选,Unfeature
+Delete reply,删除回复,Delete reply
+Commented at,评论时间,Commented at
+Template ID,模板 ID,Template ID
+Example,示例,Example
+Industry,行业,Industry
+Library template ID,模板库 ID,Library template ID
+Keywords,关键词,Keywords
+Send,发送,Send
+Log,发送记录,Log
+Send template message,发送模板消息,Send template message
+To,接收人,To
+Data,消息数据,Data
+Template,模板,Template
+Message ID,消息 ID,Message ID
+Status,状态,Status
+Error,错误,Error
+Sent at,发送时间,Sent at
+Kind,类型,Kind
+One-time,一次性,One-time
+Long-term,长期,Long-term
+Keyword IDs,关键词 ID,Keyword IDs
+Send subscribe notification,发送订阅通知,Send subscribe notification
+Page,跳转页面,Page
+OpenIDs,OpenID 列表,OpenIDs
+Total,总数,Total
+Sent,已发送,Sent
+Errors,失败,Errors
+Refresh status,刷新状态,Refresh status
+Cancel,撤回,Cancel
+Account,账号,Account
+Nickname,昵称,Nickname
+Avatar,头像,Avatar
+Invited WeChat,邀请的微信号,Invited WeChat
+Invite WeChat ID,邀请微信号,Invite WeChat ID
+Invite status,邀请状态,Invite status
+Service account,客服账号,Service account
+Opened at,创建时间,Opened at
+Last message at,最后消息时间,Last message at
+Direction,方向,Direction
+From fan,粉丝发送,From fan
+From account,客服发送,From account
+Time,时间,Time
+Temporary,临时,Temporary
+Permanent,永久,Permanent
+Expires in (seconds),有效期（秒）,Expires in (seconds)
+QR code,二维码,QR code
+Event,事件,Event
+Received at,接收时间,Received at
+Date,日期,Date
+Source,来源,Source
+Other,其他,Other
+Account search,公众号搜索,Account search
+Name card,名片分享,Name card
+Article menu,图文页右上角菜单,Article menu
+Article account name,图文页公众号名称,Article account name
+Article mention,文章内账号名称,Article mention
+Article ad,公众号文章广告,Article ad
+Moments ad,朋友圈广告,Moments ad
+New,新增,New
+Total fans,累计粉丝,Total fans
+Readers,阅读人数,Readers
+Reads,阅读次数,Reads
+Sharers,分享人数,Sharers
+Shares,分享次数,Shares
+Favorites,收藏次数,Favorites
+Calls,调用次数,Calls
+Failures,失败次数,Failures
+Total time (ms),总耗时（毫秒）,Total time (ms)
+Slowest (ms),最大耗时（毫秒）,Slowest (ms)
+wechat.api_failed,微信接口调用失败,WeChat API call failed
+wechat.account_unknown,未知的公众号,Unknown Official Account
+wechat.appid_exists,AppID 已存在,AppID already exists
+wechat.reply_exists,该公众号已有启用中的同类回复,An enabled reply of this kind already exists
+wechat.menu_empty,没有可发布的默认菜单,No default menu to publish
+wechat.menu_top_limit,一级菜单最多 3 个,At most 3 top-level menus
+wechat.menu_sub_limit,子菜单最多 5 个,At most 5 sub menus
+wechat.menu_folder_empty,父菜单没有子菜单,A folder menu needs sub menus
