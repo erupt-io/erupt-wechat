@@ -24,9 +24,10 @@
             <artifactId>erupt-data-jpa</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
+        <!-- The host application brings the erupt stack; here it also runs the standalone launcher -->
         <dependency>
             <groupId>xyz.erupt</groupId>
-            <artifactId>erupt-upms</artifactId>
+            <artifactId>erupt-spring-boot-starter</artifactId>
             <version>${project.parent.version}</version>
             <scope>provided</scope>
         </dependency>
@@ -36,16 +37,35 @@
             <version>${wx-java.version}</version>
         </dependency>
 
-        <!-- Tests: erupt-upms on H2 against a stub of the WeChat API served by the JDK's HttpServer -->
+        <!-- The zero-config database of the launcher, and of a host application that sets none -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- Tests stub the WeChat API with the JDK's HttpServer -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <!-- A library: no repackaging, the plugin only serves `mvn spring-boot:run` -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring.boot.version}</version>
+                <executions>
+                    <execution>
+                        <id>repackage</id>
+                        <phase>none</phase>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

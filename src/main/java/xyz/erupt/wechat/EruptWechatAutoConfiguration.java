@@ -1,8 +1,10 @@
 package xyz.erupt.wechat;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.FilterType;
 import xyz.erupt.core.annotation.EruptScan;
 import xyz.erupt.core.constant.MenuStatus;
 import xyz.erupt.core.module.EruptModule;
@@ -23,7 +25,8 @@ import java.util.List;
  * @author YuePeng
  */
 @Configuration
-@ComponentScan
+// The standalone launcher lives in this package too; a host application must not pick it up
+@ComponentScan(excludeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = SpringBootApplication.class))
 @EruptScan
 @EntityScan
 public class EruptWechatAutoConfiguration implements EruptModule {

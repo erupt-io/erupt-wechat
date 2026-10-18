@@ -10,7 +10,7 @@ A WeChat Official Account admin on [erupt](https://www.erupt.xyz). Add the depen
 </dependency>
 ```
 
-Needs erupt 2.4.0 or newer and a JPA data source (erupt-upms brings one). Built on [WxJava](https://github.com/binarywang/WxJava).
+Needs erupt 2.4.0 or newer. H2 comes along as the zero-config database; set `spring.datasource.*` to use another. Built on [WxJava](https://github.com/binarywang/WxJava).
 
 ## What you get
 
@@ -69,6 +69,15 @@ For the page signature of `wx.config`, the host application calls `GET /wechat/j
 - A customer service message reaches a fan within 48 hours of the fan's last message.
 - Mass messages can be cancelled within half an hour; WeChat still counts them.
 
+## Try it
+
+```bash
+mvn spring-boot:run
+# http://localhost:8080  erupt / erupt
+```
+
+The module runs on its own with an H2 file database under `./h2`; nothing to install. It takes a sandbox test account from https://mp.weixin.qq.com/debug/cgi-bin/sandbox. WeChat has to reach the portal, so pair it with a tunnel such as ngrok and put the tunnel's URL in `callback-domain`.
+
 ## Tests
 
-`mvn test` runs the module against a stub of the WeChat API served by the JDK's `HttpServer`, with erupt-upms on H2. Until erupt 2.4.0 is on Maven Central, install erupt locally first.
+`mvn test` runs the module against a stub of the WeChat API served by the JDK's `HttpServer`, on an in-memory H2. Until erupt 2.4.0 is on Maven Central, install erupt locally first.
