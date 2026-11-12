@@ -80,4 +80,4 @@ The module runs on its own with an H2 file database under `./h2`; nothing to ins
 
 ## Tests
 
-`mvn test` runs the module against a stub of the WeChat API served by the JDK's `HttpServer`, on an in-memory H2. Until erupt 2.4.0 is on Maven Central, install erupt locally first.
+`mvn test` runs the module against a stub of the WeChat API served by the JDK's `HttpServer`, on an in-memory H2.
